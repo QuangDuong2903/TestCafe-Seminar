@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Validator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Register Form</h1>
+            <form action=""></form>
+                <div class="form-control">
+                    <input id="username" type="text" placeholder="Username">
+                    <small id="username-err-msg"></small>
+                    <span id="username-underline"></span>
+                </div>
+
+                <div class="form-control">
+                    <input id="email" type="email" placeholder="Email">
+                    <small id="email-err-msg"></small>
+                    <span id="email-underline"></span>
+                </div>
+
+                <div class="form-control">
+                    <input id="password" type="password" placeholder="Password">
+                    <small id="password-err-msg"></small>
+                    <span id="password-underline"></span>
+                </div>
+
+                <div class="form-control">
+                    <input id="confirm-password" type="password" placeholder="Confirm Password">
+                    <small id="confirm-password-err-msg"></small>
+                    <span id="confirm-password-underline"></span>
+                </div>
+
+                <button type="submit" value="Login" class="btn-submit" id="submit-btn">Sign Up</button>
+
+                <div class="signup-link">
+                    not a member ? <a href=""> Sign Up</a>
+                </div>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
